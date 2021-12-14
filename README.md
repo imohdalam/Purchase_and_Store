@@ -13,13 +13,13 @@ These instructions will get you a copy of the project up and running on your loc
 + Database: MongoDB
 + Framework: ExpressJS
 
-## Tool Used
+### Tools Used
 
 + VS Code
 + MongoDB Compass/ MongoDB Atlas
 
 
-### Prerequisites
+### PreRequisites
 
 You need to have installed Node.js, NPM and MongoDB in your System.
 
