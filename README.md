@@ -1,4 +1,4 @@
-# Node.js Purchase and Store
+# Purchase and Store
 
 This is a Purchase and Store module using JavaScript, Node.js, Express, Mongoose, EJS and express-sessions.
 
