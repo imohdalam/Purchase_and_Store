@@ -4,13 +4,13 @@ This is a Purchase and Store module using JavaScript, Node.js, Express, Mongoose
 
 ### Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. :heart:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Technology Used
 
 + FrontEnd: JavaScript, HTML, CSS
 + Backend: NodeJS
-+ Database: Mongodb
++ Database: MongoDB
 + Framework: ExpressJS
 
 ## Tool Used
@@ -34,8 +34,9 @@ nodemon server.js
 ```
 
 Code is Running on 
-+ http://localhost:3000/
-
+```
+http://localhost:3000/
+```
 
 Thanks
 
