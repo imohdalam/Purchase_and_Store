@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+    <body>
+        <%- include('header'); -%>
+        <div class="col-md-4 col-md-offset-4 form-card">
+            <h2>Contact For Technical Query</h2>
+            <div class="form-group text-left">
+                <form action="/query" id="form1" method="POST">
+                    <label for="exampleFormControlTextarea1">Email*</label>
+                    <input type="email" name="email" placeholder="" required="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control"><br />
+                        <label for="exampleFormControlTextarea2">Message*</label>
+                    <textarea type="text" name="query" placeholder="Enter your text here" required="" class="form-control"></textarea><br />
+                    <input type="submit" value="Submit" class="btn btn-success">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

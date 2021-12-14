@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+          Purchase and Store
+        </title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,900;1,600&family=Roboto&display=swap" rel="stylesheet">
+<style>  
+    #imagesize  
+    {  
+    width:200px;  
+    height:200px;  
+    }  
+    </style> 
+    </head>
+    <body>
+        <section>
+            <%- include('header'); -%><br><br>
+            <div class="text-box">
+                <strong>
+                <h1>Our Store</h1><br><br>
+                </strong>
+                <h3>Products Available</h3><br><br>
+                <div class="col-md-4 col-md-offset-4 form-card">
+                    <a href="/"><img alt="keyboard" src="image/keyboard.jpg" id="imagesize"></a>
+                    <a href="/"><img alt="pendrive" src="image/pendrive.jpg" id="imagesize"></a>
+                    <a href="/"><img alt="dataCable" src="image/dataCable.jpg" id="imagesize"></a>
+                    <a href="/"><img alt="chair" src="image/chair.jpg" id="imagesize"></a>
+                    <a href="/"><img alt="mouse" src="image/mouse.jpg" id="imagesize"></a>
+                    <a href="/"><img alt="extensionBoard" src="image/extensionBoard.jpg" id="imagesize"></a>
+                </div><br><br><br>
+                <a href="/contact" class="new-btn">Explore More</a>
+            </div>
+        
+        </section>
+    </body>
+</html>
