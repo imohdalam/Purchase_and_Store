@@ -2,16 +2,22 @@
 
 This is a Purchase and Store module using JavaScript, Node.js, Express, Mongoose, EJS and express-sessions.
 
-## Getting Started
+### Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. :heart:
 
-## Technology Used:
+### Technology Used
 
 + FrontEnd: JavaScript, HTML, CSS
 + Backend: NodeJS
 + Database: Mongodb
 + Framework: ExpressJS
+
+## Tool Used
+
++ VS Code
++ MongoDB Compass/ MongoDB Atlas
+
 
 ### Prerequisites
 
